@@ -10,7 +10,7 @@ $('.owlCard').owlCarousel({
             nav: false
         },
         300:{
-            items: 1,
+            items: 2.3,
             nav: false
         },
         600:{
@@ -18,15 +18,15 @@ $('.owlCard').owlCarousel({
             nav: false
         },
         900:{
-            items: 4,
+            items: 3.3,
             nav: false
         },
         1140:{
-            items: 4.5,
+            items: 4.3,
             nav: false
         },
         1340:{
-            items: 4.5,
+            items: 4.3,
             nav: false
         }
     }    

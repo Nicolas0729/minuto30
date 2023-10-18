@@ -1,0 +1,225 @@
+@media screen and (min-width: 800px) {
+    
+}
+@media screen and (max-width: 800px) {
+    /* ----Header---- */
+    .header .contentHeader {
+        padding: 10px 20px;
+    }
+    .contentHeader .leftHeader {
+        gap: 15px;
+    }
+    .contentHeader .leftHeader .logoHeader .logoMinuto img {
+        width: 120px;
+    }
+    .contentHeader .rightHeader .iconSearch {
+        display: none;
+    }
+
+    /* ---Cover---- */
+    .cardCover .imgCover {
+        height: 450px;
+    }
+    .cardCover .absCover {
+        padding: 0px 20px 0px 20px;
+    }
+    .cardCover .absCover .textCover {
+        padding: 0px;
+        gap: 10px;
+    }
+    .cardCover .absCover .textCover .catNote {
+        font-size: 13px;
+    }
+    .cardCover .absCover .textCover .titleCover {
+        font-size: 20px;
+    }
+    .cardCover .absCover .textCover p {
+        font-size: 13px;
+    }
+    .cardCover .absCover .textCover .botCover {
+        gap: 10px;
+    }
+    .owlCover .owl-dots {
+        padding-right: 20px;
+    }
+    .owlCover .owl-prev {
+        left: 0px;
+    }
+    .owlCover .owl-next {
+        right: 0px;
+    }
+    .owlCover .owl-prev span,
+    .owlCover .owl-next span {
+        font-size: 30px;
+        width: 25px;
+        height: 35px;
+        padding-bottom: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff81 !important;
+        background: transparent !important;
+        transition: all 0.5s ease-in-out;
+        font-family: 'Varela Round', sans-serif;
+        font-weight: 300;
+    }
+
+    /* ---owlCard---- */
+    .owlCard {
+        padding-left: 20px;
+    }
+    .owlCard .owl-prev span, 
+    .owlCard .owl-next span {
+        width: 20px;
+        height: 200px;
+        font-size: 30px;
+        background-color: #00000049 !important;
+    }
+
+    /* ----CardEv---- */
+    .cardEv {
+        height: 200px;
+    }
+    .cardMajor {
+        height: 300px;
+    }
+    .cardEv .absCard .botCard .titleCard {
+        font-size: 14px;
+    }
+    .cardEv .absCard .botCard .linksCard .btnDesktop {
+        display: none;
+    }
+    .cardEv .absCard .textCard {
+        padding: 20px;
+    }
+    .cardEv .absCard .textCard .controlCard {
+        margin-bottom: 10px;
+    }
+    .cardEv .absCard .textCard .infoCard {
+        gap: 10px;
+    }
+    .cardEv .absCard .textCard .infoCard .titleInfo {
+        font-size: 20px;
+    }
+    .cardEv .absCard .textCard .infoCard p {
+        display: none;
+    }
+
+    /* ----RowFour---- */
+    .rowFour {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* ----Login---- */
+    .loginMin .contentLogin {
+        padding: 30px;
+    }
+    .contentLogin p {
+        font-size: 13px;
+    }
+
+    /* ---Contact--- */
+    .contentOwl .contact p {
+        font-size: 13px;
+    }
+    .contentOwl .contact .formContact {
+        gap: 10px;
+    }
+    .contentOwl .contact .formContact .itemFormDos {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    /* ----Video---- */
+    .contentVideo .backVideo {
+        min-height: 100vh;
+        background-color: red;
+    }
+    .contentVideo .backVideo {
+        object-fit: cover;
+    }
+
+    /* ---headCat--- */
+    .headCat {
+        margin-bottom: 15px;
+    }
+    .headSingle {
+        padding-left: 0;
+    }
+    .headCat .titleCat {
+        font-size: 20px;
+    }
+
+    /* ---btnGlobal--- */
+    .btnGlobal {
+        font-size: 13px;
+        padding: 6px 15px;
+    }
+    .btnGlobalSec {
+        font-size: 11px;
+        padding: 5px 12px;
+    }
+    .btnCover {
+        display: none;
+    }
+
+    /* ---ModalInfo---- */
+    .contentMod {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .headMod img {
+        height: 300px;
+    }
+    .bodyMod {
+        padding: 20px;
+    }
+    .bodyMod .headBody .titleMod {
+        font-size: 20px;
+    }
+    .bodyMod .headBody p {
+        font-size: 13px;
+    }
+    .bodyMod .botBody {
+        gap: 10px;
+    }
+    .bodyMod .botBody .shareTitle {
+        font-size: 13px;
+    }
+
+    /* ---Canva--- */
+    .bodyCanva .footerCanva .socialMobile .iconMob {
+        font-size: 17px;
+    }
+
+    /* ---Footer--- */
+    .footer {
+        margin-top: 50px;
+    }
+    .topFooter .logoFooter img {
+        width: 90px;
+    }
+    .topFooter .socialFooter {
+        gap: 10px;
+    }
+    .topFooter .socialFooter .iconSocial {
+        font-size: 16px;
+    }
+    .contentFooter .mainFooter {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    .mainFooter .colMobile {
+        display: none;
+    }
+    .mainFooter .colFooter .titleCol {
+        font-size: 17px;
+    }
+    .mainFooter .colFooter .linkFooter {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+}

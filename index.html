@@ -18,21 +18,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <title>Home | Minuto30</title>
-    <link rel="stylesheet" href="css/style.css?v=1.8">
-    <link rel="stylesheet" href="css/responsive.css?v=1.7">
+    <link rel="stylesheet" href="css/style.css?v=1.1">
+    <link rel="stylesheet" href="css/responsive.css?v=1.1">
 
 </head>
 <body>
 
 <!-- ----CanvasRight--- -->
-<div class="offcanvas offcanvas-end canvaRight" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+<div class="offcanvas offcanvas-end canvaMinuto" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
   <div class="offcanvas-header headCanva">
     <h5 class="titleAccount">Mi cuenta</h5>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
-  <div class="offcanvas-body bodyCanva">
+  <div class="offcanvas-body bodyAccount">
     <div class="dateUser">
-        <h3 class="emailUser">nicolasmontes07@gmail.com</h3>
+        <h3 class="titleUser">Mis Datos</h3>
         <div class="itemDate">
             <p>Nombre:</p>
             <span>Nicolás</span>         
@@ -42,8 +42,8 @@
             <span>Tejada Montes</span>         
         </div>
         <div class="itemDate">
-            <p>País:</p>
-            <span>Colombia</span>         
+            <p>Correo:</p>
+            <span>nicolasmontes07@gmail.com</span>         
         </div>
         <div class="itemDate">
             <p>Edad:</p>
@@ -54,35 +54,67 @@
             <span>xxxxxxxxxxxxx</span>         
         </div>
     </div>
-    <div class="botUser">
-        <a href="login.html" class="btnUs">Cerrar sesión</a>
+    <div class="dateUser">
+        <h3 class="titleUser">Mis suscripción</h3>
+        <div class="itemDate">
+            <p>Usuario:</p>
+            <span>NIICOLAS0729</span>         
+        </div>
+        <div class="itemDate">
+            <p>Estado de cuenta:</p>
+            <span>Activada</span>         
+        </div>
+        <div class="itemDate">
+            <p>Membresía</p>
+            <span>Free</span>         
+        </div>
+        <div class="itemDate">
+            <p>Caducidad</p>
+            <span>Nunca</span>         
+        </div>
     </div>
   </div>
+  <div class="botUser">
+    <a href="login.html" class="btnGlobal">Cerrar sesión</a>
+    <a href="#" class="linkDates"><i class="fa-solid fa-gear"></i> Cambiar datos</a>
+</div>
 </div>
 
 <!-- ----offCanvas---- -->
-<div class="offcanvas offcanvas-start canvaFecna" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+<div class="offcanvas offcanvas-start canvaMinuto" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
     <div class="offcanvas-header headCanva">
-        <a href="#" class="logoFec"><img src="img/logo-white.png" alt=""></a>
+        <a href="#" class="logoMin"><img src="img/logo-minuto-30.png" alt=""></a>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body bodyCanva">
         <nav class="navMobile">
-            <a href="#Dia-1" class="linkMobile"><i class="fa-solid fa-chevron-right"></i> Día 1</a>
-            <a href="#Dia-2" class="linkMobile"><i class="fa-solid fa-chevron-right"></i> Día 2</a>
-            <a href="#Dia-3" class="linkMobile"><i class="fa-solid fa-chevron-right"></i> Día 3</a>
-            <a href="#Dia-4" class="linkMobile"><i class="fa-solid fa-chevron-right"></i> Día 4</a>
-            <a href="#Premiaciones" class="linkMobile"><i class="fa-solid fa-chevron-right"></i> Premiaciones</a>
+            <a href="#" class="linkMobile"><i class="fa-solid fa-chevron-right"></i> Inicio</a>
+            <a href="#" class="linkMobile"><i class="fa-solid fa-chevron-right"></i> Señal en vivo</a>
+            <a href="#" class="linkMobile"><i class="fa-solid fa-chevron-right"></i> Medellín</a>
+            <a href="#" class="linkMobile"><i class="fa-solid fa-chevron-right"></i> Bogotá</a>
+            <a href="#" class="linkMobile"><i class="fa-solid fa-chevron-right"></i> Antioquia</a>
+            <a href="#" class="linkMobile"><i class="fa-solid fa-chevron-right"></i> Cali</a>
+            <a href="#" class="linkMobile"><i class="fa-solid fa-chevron-right"></i> Política</a>
+            <a href="#" class="linkMobile"><i class="fa-solid fa-chevron-right"></i> Deporte</a>
+            <a href="#" class="linkMobile"><i class="fa-solid fa-chevron-right"></i> Economía</a>
+            <a href="#" class="linkMobile"><i class="fa-solid fa-chevron-right"></i> Minuto30Play</a>
+            <a href="#" class="linkMobile"><i class="fa-solid fa-chevron-right"></i> Liga Betplay</a>
+            <a href="#" class="linkMobile"><i class="fa-solid fa-chevron-right"></i> Liga Betplay</a>
+            <a href="#" class="linkMobile"><i class="fa-solid fa-chevron-right"></i> Atlético Nacional</a>
+            <a href="#" class="linkMobile"><i class="fa-solid fa-chevron-right"></i> Entretenimiento</a>
+            <a href="#" class="linkMobile"><i class="fa-solid fa-chevron-right"></i> Farándula</a>
         </nav>
         <div class="footerCanva">
-            <div class="imgCopa">
-                <img src="img/logo-copa.png" alt="">
-            </div>
             <div class="socialMobile">
-                <a href="#" class="iconSocial"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#" class="iconSocial"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#" class="iconSocial"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#" class="iconSocial"><i class="fa-brands fa-youtube"></i></a>
+                <h4 class="titleSocial">Síguenos:</h4>
+                <a href="#" class="iconMob"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="iconMob"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="iconMob"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="iconMob"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="iconMob"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" class="iconMob"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#" class="iconMob"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#" class="iconMob"><i class="fa-brands fa-telegram"></i></a>
             </div>
         </div>
     </div>
@@ -90,58 +122,33 @@
 
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modFecna">
+    <div class="modal-dialog modMin">
       <div class="modal-content contentMod">
         <div class="modal-header headMod">
-          <img src="img/copa-pacifico.png" alt="">
+          <img src="img/Homicidio.jpg" alt="">
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body bodyMod">
             <div class="headBody">
-                <h2 class="titleMod">En el día 1 de la Copa Pacífico de Natación Carreras que se disputa en Cali, 
-                    Colombia, usted podrá presenciar por Fecna+ las competencias de las siguientes pruebas: </h2>
-                <p>10:20 a.m. - 19/10/2023</p>
+                <h3 class="subtitleMod">DETALLES</h3>
+                <h2 class="titleMod">Festivo violento en Medellín: Se registraron tres homicidios en diferentes puntos de la ciudad</h2>
+                <p>Los tres homicidios se presentaron el lunes festivo, 16 de octubre, en Moravia, en el corregimiento de Altavista y en Belén Altavista.</p>
+                <span class="dateNote">27 septiembre, 2023, 11:32 am</span>
+                <h3 class="subtitleMod">MÁS INFORMACIÓN</h3>
+                <h4 class="authorNote"><span class="lightBy">Por</span> Laura Pineda</h4>
+                <a href="#" class="btnGlobal">Reproducir <i class="fa-solid fa-circle-play"></i></a>
             </div>
             <div class="botBody">
-                <h3 class="descripMod">Eventos:</h3>
-                <div class="rowEv">
-                    <div class="colEv">
-                        <p><i class="fa-solid fa-chevron-right"></i>50 libre (MAS-JUV A)</p>
-                        <p><i class="fa-solid fa-chevron-right"></i>50 libre (MAS-JUV A)</p>
-                        <p><i class="fa-solid fa-chevron-right"></i>50 libre (MAS-JUV B)</p>
-                        <p><i class="fa-solid fa-chevron-right"></i>200 espalda (FEM-JUV A)</p>
-                        <p><i class="fa-solid fa-chevron-right"></i>200 espalda (FEM-JUV B)</p>
-                        <p><i class="fa-solid fa-chevron-right"></i>1500 libre series lentas (MAS - JUV A)</p>
-                        <p><i class="fa-solid fa-chevron-right"></i>1500 libre series lentas (MAS-JUV B)</p>
-                        <p><i class="fa-solid fa-chevron-right"></i>100 mariposa (FEM-JUV A)</p>
-                        <p><i class="fa-solid fa-chevron-right"></i>100 mariposa (FEM-JUV B)</p>
-                    </div>
-                    <div class="colEv">
-                        <p><i class="fa-solid fa-chevron-right"></i>100 pecho (MAS-JUV B)</p>
-                        <p><i class="fa-solid fa-chevron-right"></i>100 pecho (MAS-JUV A)</p>
-                        <p><i class="fa-solid fa-chevron-right"></i>400 libre (FEM- JUV A)</p>
-                        <p><i class="fa-solid fa-chevron-right"></i>400 libre (FEM-JUV B)</p>
-                        <p><i class="fa-solid fa-chevron-right"></i>200 combinado (MAS-JUV B)</p>
-                        <p><i class="fa-solid fa-chevron-right"></i>200 combinado (MAS-JUV A)</p>
-                        <p><i class="fa-solid fa-chevron-right"></i>4x100 relevo libre (FEM-JUV A)</p>
-                        <p><i class="fa-solid fa-chevron-right"></i>4x100 relevo libre (FEM-JUV B)</p>
-                    </div>
-                </div>
-                <a href="#" class="btnPlay">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                <h4 class="shareTitle">Compartir:</h4>
+                <a href="#" class="iconRed"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="iconRed"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="iconRed"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="iconRed"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="iconRed"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" class="iconRed"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#" class="iconRed"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#" class="iconRed"><i class="fa-brands fa-telegram"></i></a>
             </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModalPremio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modFecna">
-      <div class="modal-content contentMod">
-        <div class="modal-header headMod">
-          <img src="img/premio.jpg" alt="" class="imgPremio">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
         </div>
       </div>
     </div>
@@ -158,7 +165,7 @@
         </div>
         <div class="rightHeader">
             <a class="iconSearch" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="fa-solid fa-magnifying-glass"></i></a>
-            <a href="#" class="btnGlobal btnDesktop" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Iniciar sesión</a>
+            <a href="#" class="btnGlobal" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Mi cuenta</a>
         </div>
     </div>
     <div class="collapse colFecna" id="collapseExample">
@@ -183,9 +190,176 @@
                         <h1 class="titleCover">Personería de Medellín advirtió posible colapso de la plataforma mirador del Pueblito Paisa</h1>
                         <p>Según la Personería el mirador estaría diseñado para 200 personas pero ingresan hasta 1.200 visitantes en temporada alta</p>
                         <div class="botCover">
-                            <a href="#" class="btnGlobal">Reproducir <i class="fa-solid fa-circle-play"></i></a>
-                            <a href="#" class="btnGlobalSec">Información<i class="fa-solid fa-circle-info"></i></a>
-                            <a href="#" class="btnGlobalSec">Ver todos los destacados</a>
+                            <a href="videoLive.html" class="btnGlobal">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                            <a href="#" class="btnGlobalSec" data-bs-toggle="modal" data-bs-target="#exampleModal">Información<i class="fa-solid fa-circle-info"></i></a>
+                            <a href="#" class="btnGlobalSec btnCover">Ver todos los destacados</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cardCover">
+                <div class="imgCover">
+                    <img src="img/Conozca-como-llegar-en-transporte-publico-758x426.jpg" alt="">
+                </div>
+                <div class="absCover">
+                    <div class="textCover">
+                        <span class="catNote">NOTICIAS MEDELLÍN</span>
+                        <h1 class="titleCover">Personería de Medellín advirtió posible colapso de la plataforma mirador del Pueblito Paisa</h1>
+                        <p>Según la Personería el mirador estaría diseñado para 200 personas pero ingresan hasta 1.200 visitantes en temporada alta</p>
+                        <div class="botCover">
+                            <a href="videoLive.html" class="btnGlobal">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                            <a href="#" class="btnGlobalSec" data-bs-toggle="modal" data-bs-target="#exampleModal">Información<i class="fa-solid fa-circle-info"></i></a>
+                            <a href="#" class="btnGlobalSec btnCover">Ver todos los destacados</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cardCover">
+                <div class="imgCover">
+                    <img src="img/Conozca-como-llegar-en-transporte-publico-758x426.jpg" alt="">
+                </div>
+                <div class="absCover">
+                    <div class="textCover">
+                        <span class="catNote">NOTICIAS MEDELLÍN</span>
+                        <h1 class="titleCover">Personería de Medellín advirtió posible colapso de la plataforma mirador del Pueblito Paisa</h1>
+                        <p>Según la Personería el mirador estaría diseñado para 200 personas pero ingresan hasta 1.200 visitantes en temporada alta</p>
+                        <div class="botCover">
+                            <a href="videoLive.html" class="btnGlobal">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                            <a href="#" class="btnGlobalSec" data-bs-toggle="modal" data-bs-target="#exampleModal">Información<i class="fa-solid fa-circle-info"></i></a>
+                            <a href="#" class="btnGlobalSec btnCover">Ver todos los destacados</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cardCover">
+                <div class="imgCover">
+                    <img src="img/Conozca-como-llegar-en-transporte-publico-758x426.jpg" alt="">
+                </div>
+                <div class="absCover">
+                    <div class="textCover">
+                        <span class="catNote">NOTICIAS MEDELLÍN</span>
+                        <h1 class="titleCover">Personería de Medellín advirtió posible colapso de la plataforma mirador del Pueblito Paisa</h1>
+                        <p>Según la Personería el mirador estaría diseñado para 200 personas pero ingresan hasta 1.200 visitantes en temporada alta</p>
+                        <div class="botCover">
+                            <a href="videoLive.html" class="btnGlobal">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                            <a href="#" class="btnGlobalSec" data-bs-toggle="modal" data-bs-target="#exampleModal">Información<i class="fa-solid fa-circle-info"></i></a>
+                            <a href="#" class="btnGlobalSec btnCover">Ver todos los destacados</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cardCover">
+                <div class="imgCover">
+                    <img src="img/Conozca-como-llegar-en-transporte-publico-758x426.jpg" alt="">
+                </div>
+                <div class="absCover">
+                    <div class="textCover">
+                        <span class="catNote">NOTICIAS MEDELLÍN</span>
+                        <h1 class="titleCover">Personería de Medellín advirtió posible colapso de la plataforma mirador del Pueblito Paisa</h1>
+                        <p>Según la Personería el mirador estaría diseñado para 200 personas pero ingresan hasta 1.200 visitantes en temporada alta</p>
+                        <div class="botCover">
+                            <a href="videoLive.html" class="btnGlobal">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                            <a href="#" class="btnGlobalSec" data-bs-toggle="modal" data-bs-target="#exampleModal">Información<i class="fa-solid fa-circle-info"></i></a>
+                            <a href="#" class="btnGlobalSec btnCover">Ver todos los destacados</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----add-minuto30---- -->
+<div class="owl">
+    <div class="contentOwl">
+        <div class="add30">
+            <span class="addTitle">PUBLICIDAD</span>
+            <div class="addBanner">
+                ADS
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----ContentOwl---- -->
+<div class="owl">
+    <div class="contentOwl contentOwlRight">
+        <div class="headCat">
+            <img src="img/logotipo-minuto30.png" alt="">
+            <h2 class="titleCat">MEDELLÍN</h2>
+        </div>
+        <div class="owlCard owl-carousel" id="Dia-1">
+            <div class="cardEv">
+                <img src="img/Homicidio.jpg" alt="">
+                <div class="absCard">
+                    <div class="topCard">
+                        <span class="tagLive"><i class="fa-solid fa-lock"></i></span>
+                    </div>
+                    <div class="botCard">
+                        <h2 class="titleCard">Festivo violento en Medellín: Se registraron tres homicidios...</h2>
+                        <div class="linksCard">
+                            <a href="videoLive.html" class="btnGlobal btnCard btnDesktop">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                            <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btnGlobalSec btnCard">Información<i class="fa-solid fa-circle-info"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cardEv">
+                <img src="img/Homicidio.jpg" alt="">
+                <div class="absCard">
+                    <div class="topCard">
+                        <span class="tagLive"><i class="fa-solid fa-lock"></i></span>
+                    </div>
+                    <div class="botCard">
+                        <h2 class="titleCard">Festivo violento en Medellín: Se registraron tres homicidios...</h2>
+                        <div class="linksCard">
+                            <a href="videoLive.html" class="btnGlobal btnCard btnDesktop">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                            <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btnGlobalSec btnCard">Información<i class="fa-solid fa-circle-info"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cardEv">
+                <img src="img/Homicidio.jpg" alt="">
+                <div class="absCard">
+                    <div class="topCard">
+                        <span class="tagLive"><i class="fa-solid fa-lock"></i></span>
+                    </div>
+                    <div class="botCard">
+                        <h2 class="titleCard">Festivo violento en Medellín: Se registraron tres homicidios...</h2>
+                        <div class="linksCard">
+                            <a href="videoLive.html" class="btnGlobal btnCard btnDesktop">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                            <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btnGlobalSec btnCard">Información<i class="fa-solid fa-circle-info"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cardEv">
+                <img src="img/Homicidio.jpg" alt="">
+                <div class="absCard">
+                    <div class="topCard">
+                        <span class="tagLive"><i class="fa-solid fa-lock"></i></span>
+                    </div>
+                    <div class="botCard">
+                        <h2 class="titleCard">Festivo violento en Medellín: Se registraron tres homicidios...</h2>
+                        <div class="linksCard">
+                            <a href="videoLive.html" class="btnGlobal btnCard btnDesktop">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                            <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btnGlobalSec btnCard">Información<i class="fa-solid fa-circle-info"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cardEv">
+                <img src="img/Homicidio.jpg" alt="">
+                <div class="absCard">
+                    <div class="topCard">
+                        <span class="tagLive"><i class="fa-solid fa-lock"></i></span>
+                    </div>
+                    <div class="botCard">
+                        <h2 class="titleCard">Festivo violento en Medellín: Se registraron tres homicidios...</h2>
+                        <div class="linksCard">
+                            <a href="videoLive.html" class="btnGlobal btnCard btnDesktop">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                            <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btnGlobalSec btnCard">Información<i class="fa-solid fa-circle-info"></i></a>
                         </div>
                     </div>
                 </div>
@@ -196,38 +370,83 @@
 
 <!-- ----ContentOwl---- -->
 <div class="owl">
-    <div class="contentOwl">
-        <div class="rowTwo" id="Dia-1">
-            <div class="colRow">
-                <h2 class="titleOwl">Día 1 - <span>Copa Pacífico</span></h2>
-                <div class="cardEv">
-                    <img src="img/copa-pacifico.png" alt="">
-                    <div class="absCard">
-                        <div class="topCard">
-                            <span class="tagLive">VIVO</span>
-                        </div>
-                        <div class="botCard">
-                            <div class="linksCard">
-                                <a href="videoLive.html" class="btnView">VER</a>
-                                <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btnInfo">INFO</a>
-                            </div>
+    <div class="contentOwl contentOwlRight">
+        <div class="headCat">
+            <img src="img/logotipo-minuto30.png" alt="">
+            <h2 class="titleCat">BOGOTÁ</h2>
+        </div>
+        <div class="owlCard owl-carousel" id="Dia-1">
+            <div class="cardEv">
+                <img src="img/Homicidio.jpg" alt="">
+                <div class="absCard">
+                    <div class="topCard">
+                        <span class="tagLive"><i class="fa-solid fa-lock"></i></span>
+                    </div>
+                    <div class="botCard">
+                        <h2 class="titleCard">Festivo violento en Medellín: Se registraron tres homicidios...</h2>
+                        <div class="linksCard">
+                            <a href="videoLive.html" class="btnGlobal btnCard btnDesktop">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                            <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btnGlobalSec btnCard">Información<i class="fa-solid fa-circle-info"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="colRow">
-                <h2 class="titleOwl">Día 1 - <span>Copa Julio Maglione</span></h2>
-                <div class="cardEv">
-                    <img src="img/copa-maglione.png" alt="">
-                    <div class="absCard">
-                        <div class="topCard">
-                            <span class="tagLive">VIVO</span>
+            <div class="cardEv">
+                <img src="img/Homicidio.jpg" alt="">
+                <div class="absCard">
+                    <div class="topCard">
+                        <span class="tagLive"><i class="fa-solid fa-lock"></i></span>
+                    </div>
+                    <div class="botCard">
+                        <h2 class="titleCard">Festivo violento en Medellín: Se registraron tres homicidios...</h2>
+                        <div class="linksCard">
+                            <a href="videoLive.html" class="btnGlobal btnCard btnDesktop">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                            <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btnGlobalSec btnCard">Información<i class="fa-solid fa-circle-info"></i></a>
                         </div>
-                        <div class="botCard">
-                            <div class="linksCard">
-                                <a href="videoLive.html" class="btnView">VER</a>
-                                <a data-bs-toggle="modal" data-bs-target="#exampleModal2" class="btnInfo">INFO</a>
-                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cardEv">
+                <img src="img/Homicidio.jpg" alt="">
+                <div class="absCard">
+                    <div class="topCard">
+                        <span class="tagLive"><i class="fa-solid fa-lock"></i></span>
+                    </div>
+                    <div class="botCard">
+                        <h2 class="titleCard">Festivo violento en Medellín: Se registraron tres homicidios...</h2>
+                        <div class="linksCard">
+                            <a href="videoLive.html" class="btnGlobal btnCard btnDesktop">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                            <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btnGlobalSec btnCard">Información<i class="fa-solid fa-circle-info"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cardEv">
+                <img src="img/Homicidio.jpg" alt="">
+                <div class="absCard">
+                    <div class="topCard">
+                        <span class="tagLive"><i class="fa-solid fa-lock"></i></span>
+                    </div>
+                    <div class="botCard">
+                        <h2 class="titleCard">Festivo violento en Medellín: Se registraron tres homicidios...</h2>
+                        <div class="linksCard">
+                            <a href="videoLive.html" class="btnGlobal btnCard btnDesktop">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                            <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btnGlobalSec btnCard">Información<i class="fa-solid fa-circle-info"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cardEv">
+                <img src="img/Homicidio.jpg" alt="">
+                <div class="absCard">
+                    <div class="topCard">
+                        <span class="tagLive"><i class="fa-solid fa-lock"></i></span>
+                    </div>
+                    <div class="botCard">
+                        <h2 class="titleCard">Festivo violento en Medellín: Se registraron tres homicidios...</h2>
+                        <div class="linksCard">
+                            <a href="videoLive.html" class="btnGlobal btnCard btnDesktop">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                            <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btnGlobalSec btnCard">Información<i class="fa-solid fa-circle-info"></i></a>
                         </div>
                     </div>
                 </div>
@@ -238,38 +457,83 @@
 
 <!-- ----ContentOwl---- -->
 <div class="owl">
-    <div class="contentOwl">
-        <div class="rowTwo"  id="Dia-2">
-            <div class="colRow">
-                <h2 class="titleOwl">Día 2 - <span>Copa Pacífico</span></h2>
-                <div class="cardEv">
-                    <img src="img/copa-pacifico.png" alt="">
-                    <div class="absCard">
-                        <div class="topCard">
-                            <span class="tagLive">VIVO</span>
-                        </div>
-                        <div class="botCard">
-                            <div class="linksCard">
-                                <a href="videoLive.html" class="btnView">VER</a>
-                                <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btnInfo">INFO</a>
-                            </div>
+    <div class="contentOwl contentOwlRight">
+        <div class="headCat">
+            <img src="img/logotipo-minuto30.png" alt="">
+            <h2 class="titleCat">CALI</h2>
+        </div>
+        <div class="owlCard owl-carousel" id="Dia-1">
+            <div class="cardEv">
+                <img src="img/Homicidio.jpg" alt="">
+                <div class="absCard">
+                    <div class="topCard">
+                        <span class="tagLive"><i class="fa-solid fa-lock"></i></span>
+                    </div>
+                    <div class="botCard">
+                        <h2 class="titleCard">Festivo violento en Medellín: Se registraron tres homicidios...</h2>
+                        <div class="linksCard">
+                            <a href="videoLive.html" class="btnGlobal btnCard btnDesktop">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                            <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btnGlobalSec btnCard">Información<i class="fa-solid fa-circle-info"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="colRow">
-                <h2 class="titleOwl">Día 2 - <span>Copa Julio Maglione</span></h2>
-                <div class="cardEv">
-                    <img src="img/copa-maglione.png" alt="">
-                    <div class="absCard">
-                        <div class="topCard">
-                            <span class="tagLive">VIVO</span>
+            <div class="cardEv">
+                <img src="img/Homicidio.jpg" alt="">
+                <div class="absCard">
+                    <div class="topCard">
+                        <span class="tagLive"><i class="fa-solid fa-lock"></i></span>
+                    </div>
+                    <div class="botCard">
+                        <h2 class="titleCard">Festivo violento en Medellín: Se registraron tres homicidios...</h2>
+                        <div class="linksCard">
+                            <a href="videoLive.html" class="btnGlobal btnCard btnDesktop">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                            <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btnGlobalSec btnCard">Información<i class="fa-solid fa-circle-info"></i></a>
                         </div>
-                        <div class="botCard">
-                            <div class="linksCard">
-                                <a href="videoLive.html" class="btnView">VER</a>
-                                <a data-bs-toggle="modal" data-bs-target="#exampleModal2" class="btnInfo">INFO</a>
-                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cardEv">
+                <img src="img/Homicidio.jpg" alt="">
+                <div class="absCard">
+                    <div class="topCard">
+                        <span class="tagLive"><i class="fa-solid fa-lock"></i></span>
+                    </div>
+                    <div class="botCard">
+                        <h2 class="titleCard">Festivo violento en Medellín: Se registraron tres homicidios...</h2>
+                        <div class="linksCard">
+                            <a href="videoLive.html" class="btnGlobal btnCard btnDesktop">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                            <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btnGlobalSec btnCard">Información<i class="fa-solid fa-circle-info"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cardEv">
+                <img src="img/Homicidio.jpg" alt="">
+                <div class="absCard">
+                    <div class="topCard">
+                        <span class="tagLive"><i class="fa-solid fa-lock"></i></span>
+                    </div>
+                    <div class="botCard">
+                        <h2 class="titleCard">Festivo violento en Medellín: Se registraron tres homicidios...</h2>
+                        <div class="linksCard">
+                            <a href="videoLive.html" class="btnGlobal btnCard btnDesktop">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                            <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btnGlobalSec btnCard">Información<i class="fa-solid fa-circle-info"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cardEv">
+                <img src="img/Homicidio.jpg" alt="">
+                <div class="absCard">
+                    <div class="topCard">
+                        <span class="tagLive"><i class="fa-solid fa-lock"></i></span>
+                    </div>
+                    <div class="botCard">
+                        <h2 class="titleCard">Festivo violento en Medellín: Se registraron tres homicidios...</h2>
+                        <div class="linksCard">
+                            <a href="videoLive.html" class="btnGlobal btnCard btnDesktop">Reproducir <i class="fa-solid fa-circle-play"></i></a>
+                            <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btnGlobalSec btnCard">Información<i class="fa-solid fa-circle-info"></i></a>
                         </div>
                     </div>
                 </div>
@@ -278,128 +542,66 @@
     </div>
 </div>
 
-<!-- ----ContentOwl---- -->
+<!-- -----add-minuto30---- -->
 <div class="owl">
     <div class="contentOwl">
-        <div class="rowTwo"  id="Dia-3">
-            <div class="colRow">
-                <h2 class="titleOwl">Día 3 - <span>Copa Pacífico</span></h2>
-                <div class="cardEv">
-                    <img src="img/copa-pacifico.png" alt="">
-                    <div class="absCard">
-                        <div class="topCard">
-                            <span class="tagLive">VIVO</span>
-                        </div>
-                        <div class="botCard">
-                            <div class="linksCard">
-                                <a href="videoLive.html" class="btnView">VER</a>
-                                <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btnInfo">INFO</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="colRow">
-                <h2 class="titleOwl">Día 3 - <span>Copa Julio Maglione</span></h2>
-                <div class="cardEv">
-                    <img src="img/copa-maglione.png" alt="">
-                    <div class="absCard">
-                        <div class="topCard">
-                            <span class="tagLive">VIVO</span>
-                        </div>
-                        <div class="botCard">
-                            <div class="linksCard">
-                                <a href="videoLive.html" class="btnView">VER</a>
-                                <a data-bs-toggle="modal" data-bs-target="#exampleModal2" class="btnInfo">INFO</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="add30">
+            <span class="addTitle">PUBLICIDAD</span>
+            <div class="addBanner">
+                ADS
             </div>
         </div>
     </div>
 </div>
-
-<!-- ----ContentOwl---- -->
-<div class="owl">
-    <div class="contentOwl">
-        <div class="rowTwo"  id="Dia-4">
-            <div class="colRow">
-                <h2 class="titleOwl">Día 4 - <span>Copa Pacífico</span></h2>
-                <div class="cardEv">
-                    <img src="img/copa-pacifico.png" alt="">
-                    <div class="absCard">
-                        <div class="topCard">
-                            <span class="tagLive">VIVO</span>
-                        </div>
-                        <div class="botCard">
-                            <div class="linksCard">
-                                <a href="videoLive.html" class="btnView">VER</a>
-                                <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btnInfo">INFO</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="colRow">
-                <h2 class="titleOwl">Día 4 - <span>Copa Julio Maglione</span></h2>
-                <div class="cardEv">
-                    <img src="img/copa-maglione.png" alt="">
-                    <div class="absCard">
-                        <div class="topCard">
-                            <span class="tagLive">VIVO</span>
-                        </div>
-                        <div class="botCard">
-                            <div class="linksCard">
-                                <a href="videoLive.html" class="btnView">VER</a>
-                                <a data-bs-toggle="modal" data-bs-target="#exampleModal2" class="btnInfo">INFO</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- ---Owl--- -->
-<div class="owl">
-    <div class="contentOwl contentOwlCarousel"  id="Premiaciones">
-        <h2 class="titleOwl">Premiaciones - <span>Copa Julio Maglione y Copa Pacífico</span></h2>
-        <div class="owlEv owl-carousel">
-            <div class="cardEv" data-bs-toggle="modal" data-bs-target="#exampleModalPremio">
-                <img src="img/premio.jpg" alt="">
-            </div>
-            <div class="cardEv" data-bs-toggle="modal" data-bs-target="#exampleModalPremio">
-                <img src="img/premio.jpg" alt="">
-            </div>
-            <div class="cardEv" data-bs-toggle="modal" data-bs-target="#exampleModalPremio">
-                <img src="img/premio.jpg" alt="">
-            </div>
-            <div class="cardEv" data-bs-toggle="modal" data-bs-target="#exampleModalPremio">
-                <img src="img/premio.jpg" alt="">
-            </div>
-            <div class="cardEv" data-bs-toggle="modal" data-bs-target="#exampleModalPremio">
-                <img src="img/premio.jpg" alt="">
-            </div>
-        </div>
-    </div>
-</div>
-
 
 <!-- ----Footer---- -->
 <footer class="footer">
     <div class="contentFooter">
-        <div class="leftFooter">
-            <p>Todos los derechos reservados © 2023</p>
-        </div>
-        <div class="rightFooter">
-            <h3 class="titleSocial">Síguenos en:</h3>
+        <div class="topFooter">
+            <a href="#" class="logoFooter"><img src="img/logo-minuto-30.png" alt=""></a>
             <div class="socialFooter">
                 <a href="#" class="iconSocial"><i class="fa-brands fa-facebook"></i></a>
                 <a href="#" class="iconSocial"><i class="fa-brands fa-instagram"></i></a>
                 <a href="#" class="iconSocial"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="iconSocial"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="#" class="iconSocial"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" class="iconSocial"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#" class="iconSocial"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#" class="iconSocial"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+        </div>
+        <div class="mainFooter">
+            <div class="colFooter colMobile">
+                <img src="img/logotipo-minuto30.png" alt="">
+            </div>
+            <div class="colFooter">
+                <h2 class="titleCol">NOTICIAS</h2>
+                <a href="#" class="linkFooter">Medellín</a>
+                <a href="#" class="linkFooter">Bogotá</a>
+                <a href="#" class="linkFooter">Antioquia</a>
+                <a href="#" class="linkFooter">Cali</a>
+                <a href="#" class="linkFooter">Colombia</a>
+            </div>
+            <div class="colFooter">
+                <h2 class="titleCol">CATEGORÍAS</h2>
+                <a href="#" class="linkFooter">Política</a>
+                <a href="#" class="linkFooter">Deporte</a>
+                <a href="#" class="linkFooter">Economía</a>
+                <a href="#" class="linkFooter">Entretenimiento</a>
+                <a href="#" class="linkFooter">Farandula</a>
+            </div>
+            <div class="colFooter">
+                <h2 class="titleCol">ENLACES</h2>
+                <a href="#" class="linkFooter">¿Quiénes somos?</a>
+                <a href="#" class="linkFooter">¿Cómo anunciar?</a>
+                <a href="#" class="linkFooter">Términos y condiciones</a>
+                <a href="#" class="linkFooter">Política y privacidad</a>
+                <a href="#" class="linkFooter">Contáctenos</a>
+            </div>
+            <div class="colFooter">
+                <h2 class="titleCol">MÁS</h2>
+                <a href="#" class="linkFooter">Minuto30play</a>
+                <a href="#" class="linkFooter">Liga Betplay</a>
             </div>
         </div>
     </div>
@@ -421,7 +623,7 @@
     });
 </script>  
 
-<script src="js/owlCard"></script>
+<script src="js/owlCard.js"></script>
 <script src="js/header.js"></script>
 <script src="js/owlCover.js"></script>
 
